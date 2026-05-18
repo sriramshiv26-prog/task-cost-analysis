@@ -62,9 +62,14 @@ Thumbs.db
 secrets.json
 config.local.json
 
-# Task tracking (personal, don't commit)
-task-log-*.md
-weekly-report-*.md
+# Task tracking (personal, don't commit - but allow sample files)
+task-log-[0-9][0-9][0-9][0-9]-*.md
+weekly-report-[0-9][0-9][0-9][0-9]-*.md
+
+# Allow sample/example tracking files
+!task-log-week-*.md
+!weekly-report-*.md
+!monthly-report-[a-z]*.md
 
 # Monthly reports (optional - track or ignore)
 # monthly-cost-report-*.md
