@@ -1,0 +1,75 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data
+*.csv
+*.json
+*.xlsx
+*.xls
+*.parquet
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API Keys & Secrets
+secrets.json
+config.local.json
+
+# Task tracking (personal, don't commit)
+task-log-*.md
+weekly-report-*.md
+
+# Monthly reports (optional - track or ignore)
+# monthly-cost-report-*.md
+
+# Temporary files
+*.tmp
+*.bak
+*~
